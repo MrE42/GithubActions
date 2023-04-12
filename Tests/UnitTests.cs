@@ -114,7 +114,7 @@ namespace GithubActionsLab
         [Test]
         public void Power_Valid_Schoneweis()
         {
-            Assert.AreEqual(100, Program.Power("10", "20"));
+            Assert.AreEqual(100, Program.Power("10", "2"));
             Assert.AreEqual(1, Program.Power("1", "1"));
             Assert.AreEqual(1024, Program.Power("2", "10"));
         }
